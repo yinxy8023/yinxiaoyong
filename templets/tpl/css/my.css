@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+/**个人中心开始 for lulu**/
+.my-left{ float:left; width:240px; border:1px solid #ececec; background:#f7f7f7; margin-top:20px}
+.my-base{ width:100%; border-color:#ececec; border-style:solid; border-width:1px 0; background:#fff; margin-top:6px; padding:30px 20px}
+.my-base>img{ width:70px; height:70px; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; display:inline-block; margin-right:20px;}
+.my-base>.my-baseinfor{ display:inline-block; line-height:30px;vertical-align: middle;}
+.my-baseinfor>h2{ font-size:1.8rem}
+.my-baseinfor>h3{ font-size:1.6rem; color:#999}
+.my-left>ul{ padding:0 10px}
+.my-left>ul>li{ height:50px; line-height:50px; border-bottom:1px solid #ececec; padding-left:30px;}
+.my-left>ul>li:last-child{ border:0}
+.my-left>ul>li>a{font-size:1.4rem;}
+.my-left>ul>li.on>a,.my-left>ul>li:hover>a{ color:#ff6600}
+.my-right{ float:right; width:942px;margin-top:20px}
+.my-title{ width:100%; height:73px; line-height:74px; border:1px solid #ececec; background:#fff; font-size:1.8rem; color:#666; padding-left:45px; margin-bottom:15px}
+.my-title>em{ font-size:1.4rem; color:#999}
+.my-main{ width:100%;border:1px solid #ececec; background:#fcfcfc; padding:40px 55px}
+.my-main .btn{ width:260px; height:50px; line-height:50px; font-size:2rem}
+/*个人中心信息、密码修改*/
+.my-inforedit{ margin-bottom:40px}
+.my-inforedit>li{ padding-bottom:30px; font-size:1.6rem; position:relative}
+.my-inforedit>li>label{ margin-right:30px}
+.my-inforedit>li>span{ position:absolute; height:20px; line-height:20px; padding:0 15px; border-right:1px solid #ececec; color:#666; top:8px; left:0}
+.my-inforedit>li>img{ width:150px; height:150px;vertical-align: top;}
+.my-inforedit>li>.input{ color:#999; height:38px; line-height:38px; width:350px}
+.my-inforedit>li input[type=radio]{ appearance:radio; -webkit-appearance:radio; -moz-appearance:radio; margin-right:10px; vertical-align:middle}
+.my-password{ margin-bottom:10px}
+.my-password .input{ width:380px; padding-left:130px}
+.passwordStrength{ position:absolute; left:370px; top:-45px; border:1px solid #fddbc5; padding:15px; font-size:1.3rem; color:#999}
+.passwordStrength:before{ position:absolute; left:-12px; top:52px; border-top:10px solid transparent;border-right:12px solid #fddbc5; border-bottom:10px solid transparent;content:""}
+.passwordStrength:after{ position:absolute; left:-10px; top:52px; border-top:10px solid transparent;
+border-right:11px solid #fff; border-bottom:9px solid transparent;content:""}
+.passwordStrength>em{ font-weight:bold}
+.passwordStrength>span{ width:45px; height:4px; background:#999; margin-right:3px; vertical-align:middle}
+.passwordStrength .bgStrength {background: #1bc002;}
+.passwordStrength>ul{ margin-top:25px; padding:0 13px}
+.passwordStrength>ul>li{ line-height:25px; list-style:disc}
+/*个人中心订单*/
+.my-menu{ padding:20px 0}
+.my-menu>ul>li{ line-height:35px; font-size:1.8rem; width:24.9%; border-left:1px solid #f0f0f0; float:left; text-align:center; cursor:pointer}
+.my-menu>ul>li:first-child{ border:0}
+.my-menu>ul>li>i{ color:#d6d6d6; font-size:3rem;vertical-align: sub}
+.my-menu>ul>li.on,.my-menu>ul>li.on>i{ color:#ff7200}
+.my-menumain{ padding:20px; overflow:hidden; position:relative; margin-bottom:20px; background:#fff}
+.my-menumain>img{ width:300px; margin-right:35px; float:left}
+.my-menutitle{ width:356px;float:left}
+.my-menutitle>h2{ font-size:2rem; font-weight:bold; margin:15px 0 20px}
+.my-menutitle>h2>span,.my-menutitle>h2>em{ padding:5px 7px; color:#fff; font-size:1.4rem;display: inline-block; vertical-align:text-bottom}
+.my-menutitle>h2>span{ background:#19c100; border-top-left-radius:5px;border-bottom-left-radius:5px; -moz-border-top-left-radius:5px;-moz-border-bottom-left-radius:5px; -webkit-border-top-left-radius:5px; -webkit-border-bottom-left-radius:5px}
+.my-menutitle>h2>em{ background:#56d843;border-top-right-radius:5px;border-bottom-right-radius:5px; -moz-border-top-right-radius:5px;-moz-border-bottom-right-radius:5px; -webkit-border-top-right-radius:5px; -webkit-border-bottom-right-radius:5px}
+.my-menutitle>ul>li{ font-size:1.6rem; line-height:30px}
+.my-menutitle>ul>li>label{ color:#999}
+.my-price{ float:left; width:205px; margin-top:30px;}
+.my-price>h3{ font-size:4rem; font-weight:bold; color:#ff7200}
+.my-price>h3>small{ font-size:2.4rem; vertical-align:top}
+.my-price>div>a{ text-decoration:underline; font-size:1.6rem; color:#b0b0b0}
+.my-price>div>.btn{ width:80px; height:36px; line-height:36px; color:#fff; font-size:2rem; text-decoration:none}
+.my-price>div{ margin:20px 0 0 10px}
+.my-menumain>i{ position:absolute; right:0; top:0; font-size:9rem}
+.my-menumain>em{ font-size:2rem; position:absolute; right:0; top:23px; transform:rotate(45deg); -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); color:#fff; -ms-transform:rotate(45deg); -o-transform:rotate(45deg)}
+.my-notuse,.my-notlearn{color:#96c800}
+.my-notevalu,.my-teach{ color:#ff6600}
+.my-deal{ color:#ff0000}
+.my-learnover{ color:#bfbfbf}
+.my-menumain>.my-photo{ width:185px; height:185px; border-radius:50%;}
+/**个人中心 end for lulu**/

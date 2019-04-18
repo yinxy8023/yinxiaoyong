@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit|ie-stand">
+<meta charset="utf-8">
+<title>黄金高尔夫-首页</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/all_library.css">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/main.css">
+<script src="templets/tpl/js/all_library.js"></script>
+<script src="templets/plus/My97DatePicker/WdatePicker.js"></script>
+<!--[if lt IE 9]>
+<script src="templets/tpl/js/css3-mediaqueries.js"></script>
+<script src="templets/tpl/js/html5.js"></script>
+<script src="templets/tpl/js/pie.js"></script>
+<script src="templets/tpl/js/ie.js"></script>
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/ie.css">
+<![endif]-->
+</head>
+
+<body>
+<tr></tr>
+<header class="w bc01 relative main-top">
+  <h1 class="w1">山东黄金高尔夫</h1>
+  <aside class="absolute w top-tools">
+    <div class="w1 relative">
+      <div class="login"><b class="welcome">欢迎来到山东黄金高尔夫！</b><a href="">[登录]</a> <a href="">[<b class="c02">免费注册</b>]</a></div>
+      <ul class="absolute">
+        <li><a href="">球场订单</a></li>
+        <li><a href="">教学订单</a></li>
+        <li><a href="">商品订单</a></li>
+        <li>|</li>
+        <li><a href="">购物车<b class="c02">0</b>件</a></li>
+        <li>|</li>
+        <li><a href=""><b class="c03">软件下载</b></a></li>
+      </ul>
+    </div>
+  </aside>
+  <address class="absolute w1 top-add">
+  <div class="relative city-box"> <b class="city-name">济南</b> <a class="city-switch" href="javascript:;">切换城市<i class="iconfont icon-jiantou-down"></i></a>
+    <div class="city-list hidden">
+      <div class="city-this">当前：<span id="city-this">济南</span><i class="iconfont icon-dingwei" onClick="getLocation();"></i></div>
+      <ul>
+        <li>济南</li>
+        <li>上海</li>
+        <li>北京</li>
+        <li>广州</li>
+        <li>深圳</li>
+        <li>成都</li>
+        <li>重庆</li>
+        <li>青岛</li>
+        <li>西安</li>
+        <li>三亚</li>
+      </ul>
+    </div>
+  </div>
+  <div class="absolute tel-no">全国统一服务热线：400-666-6666</div>
+  </address>
+</header>
+<nav class="w main-nav">
+  <ul class="w1 relative">
+    <li class="on"><a href="">首页</a></li>
+    <li><a href="book-index.html">球场预定</a></li>
+    <li><a href="teaching-index.html">教学频道</a></li>
+    <li><a href="shop-index.html">精选商城</a></li>
+    <li><a href="match-index.html">赛事资讯</a></li>
+    
+    <li class="absolute bc02 download"><a href="javascript:;"><i class="iconfont icon-shouji"></i>手机端下载<i class="iconfont icon-jiantou-down"></i></a>
+      <aside class="absolute app-download hidden">
+        <dl class="tct">
+          <img src="upload/QRcode.png" width="120" height="120" alt=""/>
+          <p>手机扫一扫下载APP</p>
+        </dl>
+        <dl class="tct">
+          <a href="" class="btn btn-green"><i class="iconfont icon-pingguo"></i> APP Store</a> <a href="" class="btn btn-green"><i class="iconfont icon-anzhuo"></i> Android</a> 点击下载到电脑
+        </dl>
+      </aside>
+    </li>
+  </ul>
+</nav>
+<div class="w relative indxe-show">
+  <div class="relative pic-show">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="" style="background-image:url(upload/index-show01.jpg)"></a></div>
+      <div class="swiper-slide"><a href="" style="background-image:url(upload/index-show02.jpg)"></a></div>
+      <div class="swiper-slide"><a href="" style="background-image:url(upload/index-show03.jpg)"></a></div>
+      <div class="swiper-slide"><a href="" style="background-image:url(upload/index-show04.jpg)"></a></div>
+      <div class="swiper-slide"><a href="" style="background-image:url(upload/index-show05.jpg)"></a></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div class="absolute w1 ctc search-box">
+    <ul>
+      <li>
+        <label for="city">地区</label>
+        <input name="city" type="text" class="input this-city" id="city" placeholder="城市">
+      </li>
+      <li>
+        <label for="date">打球日期</label>
+        <input name="data" type="date" class="input" id="date" placeholder="请输入日期" onClick="WdatePicker({minDate:'%y-%M-{%d-1}',disabledDates:['%y-%M-{%d-1}']})"/>
+      </li>
+      <li>
+        <label for="time">打球时间</label>
+        <input name="time" type="time" class="input" id="time" placeholder="请输入时间" onfocus="WdatePicker({dateFmt:'H:mm'})" >
+      </li>
+      <li>
+        <label for="keyword">关键字</label>
+        <input name="keyword" type="text" class="input" id="keyword" placeholder="球场关键词">
+      </li>
+      <li>
+        <input type="submit" class="btn btn-orange" value="球场搜索">
+      </li>
+    </ul>
+  </div>
+</div>
+<section class="w1 main-box">
+  <div class="relative home-module">
+    <h2>热门球场<b>HOT</b></h2>
+    <ul class="absolute sub-list">
+      <li class="on">济南</li>
+      <li>上海</li>
+      <li>北京</li>
+      <li>广州</li>
+      <li>深圳</li>
+      <li>成都</li>
+      <li>重庆</li>
+      <li>青岛</li>
+      <li>西安</li>
+      <li>三亚</li>
+    </ul>
+    <a href="" class="absolute more">所有球场</a>
+    <ul class="bc01 main-list court-list">
+      <li> <a href="" title="">
+        <figure><img src="upload/bookimg1.jpg"></figure>
+        <h3>春城湖畔高尔夫球场</h3>
+        <div class="star-box" data-star="4"></div>
+        <p>632人预订过</p>
+        </a>
+        <div class="absolute price">
+          <label>800</label>
+          <a href="" class="btn">马上订购</a> </div>
+      </li>
+      <li> <a href="" title="">
+        <figure><img src="upload/bookimg2.jpg"></figure>
+        <h3>春城湖畔高尔夫球场</h3>
+        <div class="star-box" data-star="3"></div>
+        <p>632人预订过</p>
+        </a>
+        <div class="absolute price">
+          <label>600</label>
+          <a href="" class="btn">马上订购</a> </div>
+      </li>
+      <li> <a href="" title="">
+        <figure><img src="upload/bookimg3.jpg"></figure>
+        <h3>春城湖畔高尔夫球场</h3>
+        <div class="star-box" data-star="2"></div>
+        <p>632人预订过</p>
+        </a>
+        <div class="absolute price">
+          <label>700</label>
+          <a href="" class="btn">马上订购</a> </div>
+      </li>
+      <li> <a href="" title="">
+        <figure><img src="upload/bookimg4.jpg"></figure>
+        <h3>春城湖畔高尔夫球场</h3>
+        <div class="star-box" data-star="4"></div>
+        <p>632人预订过</p>
+        </a>
+        <div class="absolute price">
+          <label>1200</label>
+          <a href="" class="btn">马上订购</a> </div>
+      </li>
+    </ul>
+  </div>
+  <div class="relative home-module">
+    <h2>教学频道</h2>
+    <ul class="absolute sub-list">
+      <li class="on">济南</li>
+      <li>上海</li>
+      <li>北京</li>
+      <li>广州</li>
+      <li>深圳</li>
+      <li>成都</li>
+      <li>重庆</li>
+      <li>青岛</li>
+      <li>西安</li>
+      <li>三亚</li>
+    </ul>
+    <a href="" class="absolute more">所有球场</a>
+    <ul class="bc01 main-list teach-list">
+      <li>
+        <dl>
+          <dt>课程等级</dt>
+          <dd><a href="">初学</a><a href="">提高修正</a><a href="">职业化</a></dd>
+          <dt>教学年限</dt>
+          <dd><a href="">2年内</a><a href="">2-5年</a><a href="">5-10年</a><a href="">10年以上</a></dd>
+          <dt>教练特长</dt>
+          <dd><a href="">发球策略</a><a href="">握杆技巧</a><a href="">姿势站位</a><a href="">球道障碍</a><a href="">推杆要诀</a><a href="">果岭看线</a></dd>
+        </dl>
+      </li>
+      <li> <a href="" title="">
+        <figure><img src="upload/video20110516110321698.jpg" alt=""/>
+          <time>发布07-15</time>
+          <b>时长45:00</b> <i class="iconfont icon-bofang"></i> </figure>
+        <h3><b class="bc02">初级</b><span>实用版高尔夫基础教程
+          <p>教练:Jason</p>
+          </span></h3>
+        </a> </li>
+      <li> <a href="" title="">
+        <figure><img src="upload/video1407382346756.jpg" alt=""/>
+          <time>发布07-13</time>
+          <b>时长10:11</b> <i class="iconfont icon-bofang"></i> </figure>
+        <h3><b class="bc03">提高修正</b><span>美女教你如何挥杆
+          <p>教练:KIKI</p>
+          </span></h3>
+        </a> </li>
+      <li> <a href="" title="">
+        <figure><img src="upload/video003.jpg" alt=""/>
+          <time>发布07-13</time>
+          <b>时长10:11</b> <i class="iconfont icon-bofang"></i> </figure>
+        <h3><b class="bc03">提高修正</b><span>美女教你如何挥杆
+          <p>教练:KIKI</p>
+          </span></h3>
+        </a> </li>
+    </ul>
+  </div>
+  <div class="relative home-module">
+    <h2>精品推荐</h2>
+    <ul class="absolute sub-list">
+      <li>好球</li>
+      <li>服饰</li>
+      <li>球具</li>
+      <li>附件</li>
+      <li>套杆</li>
+      <li>鞋袜</li>
+    </ul>
+    <a href="" class="absolute more">进入商城</a>
+    <ul class="bc01 main-list shop-list">
+      <li> <a class="ad01"><img src="upload/shop-ad01.jpg" width="599" height="196" alt=""/></a>
+        <div class="ad02"> <a href=""><img src="upload/shop-ad021.jpg" width="299" height="200" alt=""/></a> <a href=""><img src="upload/shop-ad022.jpg" width="299" height="200" alt=""/></a> </div>
+      </li>
+      <li class="ad03"> <a href=""><img src="upload/shop-ad031.jpg" width="299" height="397" alt=""/></a> </li>
+      <li class="ad03"> <a href=""><img src="upload/shop-ad032.jpg" width="298" height="397" alt=""/></a> </li>
+    </ul>
+  </div>
+</section>
+<nav class="w bc01 bot-link">
+  <ul class="w1">
+    <li>
+      <h2>热门城市</h2>
+      <a href="">北京</a> <a href="">上海</a> <a href="">广州</a> <a href="">深圳</a> <a href="">三亚</a> <a href="">海口</a> <a href="">烟台</a> <a href="">东莞</a> <a href="">珠海</a> <a href="">青岛</a> <a href="">天津</a> <a href="">昆明</a> <a href="">大连</a> <a href="">郑州</a> <a href="">成都</a> </li>
+    <li>
+      <h2>热门球场</h2>
+      <a href="">深圳观澜湖</a> <a href="">中山雅居乐</a> <a href="">重庆保利</a> <a href="">福州温泉</a> <a href="">北京东方天星</a> <a href="">北京天竺乡村</a> <a href="">上海美兰湖</a> <a href="">北京乡村</a> <a href="">上海东方</a> </li>
+    <li>
+      <h2>友情链接</h2>
+      <a href="">中国高尔夫电视</a> <a href="">北方网旅游频道</a> <a href="">新浪高尔夫频道</a> <a href="">世界高尔夫高尔夫</a> <a href="">频道高缘网</a> <a href="">旅游卫视高迷网</a> </li>
+  </ul>
+</nav>
+<footer class="w main-bot">
+  <div class="w1 relative">
+    <address class="copyright">
+    Copyright © 2016 山东黄金高尔夫俱乐部 All Rights Reserved
+    </address>
+    <ul class="absolute">
+      <li><a href="">关于我们</a></li>
+      <li><a href="">联系我们</a></li>
+      <li><a href="">用户协议</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="templets/tpl/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit|ie-stand">
+<meta charset="utf-8">
+<title>春城湖畔高尔夫球场 - 球场预定 - 黄金高尔夫</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/all_library.css">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/main.css">
+<script src="templets/tpl/js/all_library.js"></script>
+<script src="templets/plus/My97DatePicker/WdatePicker.js"></script>
+<!--[if lt IE 9]>
+<script src="templets/tpl/js/css3-mediaqueries.js"></script>
+<script src="templets/tpl/js/html5.js"></script>
+<script src="templets/tpl/js/pie.js"></script>
+<script src="templets/tpl/js/ie.js"></script>
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/ie.css">
+<![endif]-->
+</head>
+
+<body>
+<header class="w bc01 relative main-top">
+  <h1 class="w1">山东黄金高尔夫</h1>
+  <aside class="absolute w top-tools">
+    <div class="w1 relative">
+      <div class="login"><b class="welcome">欢迎来到山东黄金高尔夫！</b><a href="">[登录]</a> <a href="">[<b class="c02">免费注册</b>]</a></div>
+      <ul class="absolute">
+        <li><a href="">球场订单</a></li>
+        <li><a href="">教学订单</a></li>
+        <li><a href="">商品订单</a></li>
+        <li>|</li>
+        <li><a href="">购物车<b class="c02">0</b>件</a></li>
+        <li>|</li>
+        <li><a href=""><b class="c03">软件下载</b></a></li>
+      </ul>
+    </div>
+  </aside>
+  <address class="absolute w1 top-add">
+  <div class="relative city-box"> <b class="city-name">济南</b> <a class="city-switch" href="javascript:;">切换城市<i class="iconfont icon-jiantou-down"></i></a>
+    <div class="city-list hidden">
+      <div class="city-this">当前：<span id="city-this">济南</span><i class="iconfont icon-dingwei" onClick="getLocation();"></i></div>
+      <ul>
+        <li>济南</li>
+        <li>上海</li>
+        <li>北京</li>
+        <li>广州</li>
+        <li>深圳</li>
+        <li>成都</li>
+        <li>重庆</li>
+        <li>青岛</li>
+        <li>西安</li>
+        <li>三亚</li>
+      </ul>
+    </div>
+  </div>
+  <div class="absolute tel-no">全国统一服务热线：400-666-6666</div>
+  </address>
+</header>
+<nav class="w main-nav">
+  <ul class="w1 relative">
+    <li><a href="index.html">首页</a></li>
+    <li class="on"><a href="book-index.html">球场预定</a></li>
+    <li><a href="teaching-index.html">教学频道</a></li>
+    <li><a href="shop-index.html">精选商城</a></li>
+    <li><a href="match-index.html">赛事资讯</a></li>
+    
+    <li class="absolute bc02 download"><a href="javascript:;"><i class="iconfont icon-shouji"></i>手机端下载<i class="iconfont icon-jiantou-down"></i></a>
+      <aside class="absolute app-download hidden">
+        <dl class="tct">
+          <img src="upload/QRcode.png" width="120" height="120" alt=""/>
+          <p>手机扫一扫下载APP</p>
+        </dl>
+        <dl class="tct">
+          <a href="" class="btn btn-green"><i class="iconfont icon-pingguo"></i> APP Store</a> <a href="" class="btn btn-green"><i class="iconfont icon-anzhuo"></i> Android</a> 点击下载到电脑
+        </dl>
+      </aside>
+    </li>
+  </ul>
+</nav>
+<aside class="w1 main-location">
+<ul>
+	<li>当前位置：</li>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="book-index.html">球场预定</a></li>
+    <li>球场详情</li>
+</ul>
+</aside>
+<section class="main-box w1">
+  <div class="bc01 book-infor">
+    <img src="upload/bookimg1.jpg">
+    <div class="book-informain">
+      <h2>春城湖畔高尔夫球场<em>（联盟）</em></h2>
+      <p>东方与西方、传统与现代、粗犷与内敛兼收并蓄的独特风格，从而形成了高尔夫乡村俱乐部的非凡魅力！全球最具特色的沙漠球场。</p>
+      <ul>
+        <li>
+          <input type="text" class="input Wdate" placeholder="打球日期" onClick="WdatePicker()">
+        </li>
+         <li>
+          <input type="text" class="input" placeholder="打球时间" onClick="WdatePicker({dateFmt:'HH:mm:ss'})">
+        </li>
+        <li>
+          <select class="input holenum">
+            <option>洞数</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </li>
+         <li>
+         <select class="input">
+            <option>人数</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </li>
+      </ul>
+      <h3>服务包含：18洞果岭/僮/车/柜</h3>
+      <div class="w book-book">
+        <label><em>¥</em>2600</label><span><em>¥</em>3200</span><a href="book-book.html" class="btn btn-orange">马上预订</a>
+      </div>
+    </div>
+  </div>
+  <div class="bc01 book-tabcon">
+    <ul class="book-tab">
+      <li class="on"><a href="javascript:;">球场简介</a></li>
+    </ul>
+    <div class="book-tabmain">
+      <p>球场模式：丘陵球场&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;球场数据：18洞72杆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;球场面积：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>球道长度：6310码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果岭草种：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 球道草种：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>球场电话：0081794721000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>球场地址：877-1 Yokawacho Kichiyasu, Miki, Hyogo Prefecture<br><br><br>
+该球场距离市区50分钟，距离机场仅40分钟，绝对的地理位置优势成为出差及市区球友的当仍不让首选。球场自然风景优美，高低差较小，球道布局合理，中途巧妙得设计有水池、沙坑等，提高了其难度，球道富含变化，极具挑战性。</p>
+    </div> 
+  </div>
+</section>
+<footer class="w bc01 main-bot">
+  <div class="w1 relative">
+    <address class="copyright">
+    Copyright © 2016 山东黄金高尔夫俱乐部 All Rights Reserved
+    </address>
+    <ul class="absolute">
+      <li><a href="">关于我们</a></li>
+      <li><a href="">联系我们</a></li>
+      <li><a href="">用户协议</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="templets/tpl/js/main.js"></script>
+</body>
+</html>

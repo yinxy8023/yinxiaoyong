@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit|ie-stand">
+<meta charset="utf-8">
+<title>球场预定 - 黄金高尔夫</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/all_library.css">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/main.css">
+<script src="templets/tpl/js/all_library.js"></script>
+<script src="templets/plus/My97DatePicker/WdatePicker.js"></script>
+<!--[if lt IE 9]>
+<script src="templets/tpl/js/css3-mediaqueries.js"></script>
+<script src="templets/tpl/js/html5.js"></script>
+<script src="templets/tpl/js/pie.js"></script>
+<script src="templets/tpl/js/ie.js"></script>
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/ie.css">
+<![endif]-->
+</head>
+
+<body>
+<header class="w bc01 relative main-top">
+  <h1 class="w1">山东黄金高尔夫</h1>
+  <aside class="absolute w top-tools">
+    <div class="w1 relative">
+      <div class="login"><b class="welcome">欢迎来到山东黄金高尔夫！</b><a href="">[登录]</a> <a href="">[<b class="c02">免费注册</b>]</a></div>
+      <ul class="absolute">
+        <li><a href="">球场订单</a></li>
+        <li><a href="">教学订单</a></li>
+        <li><a href="">商品订单</a></li>
+        <li>|</li>
+        <li><a href="">购物车<b class="c02">0</b>件</a></li>
+        <li>|</li>
+        <li><a href=""><b class="c03">软件下载</b></a></li>
+      </ul>
+    </div>
+  </aside>
+  <address class="absolute w1 top-add">
+  <div class="relative city-box"> <b class="city-name">济南</b> <a class="city-switch" href="javascript:;">切换城市<i class="iconfont icon-jiantou-down"></i></a>
+    <div class="city-list hidden">
+      <div class="city-this">当前：<span id="city-this">济南</span><i class="iconfont icon-dingwei" onClick="getLocation();"></i></div>
+      <ul>
+        <li>济南</li>
+        <li>上海</li>
+        <li>北京</li>
+        <li>广州</li>
+        <li>深圳</li>
+        <li>成都</li>
+        <li>重庆</li>
+        <li>青岛</li>
+        <li>西安</li>
+        <li>三亚</li>
+      </ul>
+    </div>
+  </div>
+  <div class="absolute tel-no">全国统一服务热线：400-666-6666</div>
+  </address>
+</header>
+<nav class="w main-nav">
+  <ul class="w1 relative">
+    <li><a href="index.html">首页</a></li>
+    <li class="on"><a href="book-index.html">球场预定</a></li>
+    <li><a href="teaching-index.html">教学频道</a></li>
+    <li><a href="shop-index.html">精选商城</a></li>
+    <li><a href="match-index.html">赛事资讯</a></li>
+    
+    <li class="absolute bc02 download"><a href="javascript:;"><i class="iconfont icon-shouji"></i>手机端下载<i class="iconfont icon-jiantou-down"></i></a>
+      <aside class="absolute app-download hidden">
+        <dl class="tct">
+          <img src="upload/QRcode.png" width="120" height="120" alt=""/>
+          <p>手机扫一扫下载APP</p>
+        </dl>
+        <dl class="tct">
+          <a href="" class="btn btn-green"><i class="iconfont icon-pingguo"></i> APP Store</a> <a href="" class="btn btn-green"><i class="iconfont icon-anzhuo"></i> Android</a> 点击下载到电脑
+        </dl>
+      </aside>
+    </li>
+  </ul>
+</nav>
+<aside class="w1 main-location">
+<ul>
+	<li>当前位置：</li>
+	<li><a href="index.html">首页</a></li>
+	<li>球场预定</li>
+</ul>
+</aside>
+<section class="main-box w1">
+    <div class="bc01 book-choose">
+      <ul>
+        <li> <a class="input city-switch" href="">地区<i class="iconfont icon-jiantou-down"></i></a> </li>
+        <li>
+          <input type="text" class="input Wdate" placeholder="打球日期" onClick="WdatePicker()">
+        </li>
+        <li>
+          <input type="text" class="input Wdate" placeholder="打球时间" onClick="WdatePicker({dateFmt:'HH:mm:ss'})">
+        </li>
+        <li>
+          <select class="input holenum">
+            <option>洞数</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <i class="iconfont icon-jiantou-down"></i> </li>
+        <li>
+          <select class="input holenum">
+            <option>人数</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <i class="iconfont icon-jiantou-down"></i> </li>
+        <li>
+          <select class="input">
+            <option>联盟类别</option>
+            <option>非联盟</option>
+            <option>联盟</option>
+          </select>
+          <i class="iconfont icon-jiantou-down"></i> </li>
+        <li>
+          <input type="text" class="input" placeholder="关键字">
+        </li>
+        <li>
+          <button type="button" class="btn btn-orange">搜索</button>
+        </li>
+      </ul>
+    </div>
+    <ul class="book-main">
+      <li> <a href="book-introduce.html"> <img src="upload/bookimg1.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="4"></div>
+          <label><em>¥</em>800</label>
+        </div>
+        </a> </li>
+      <li> <a href=""> <img src="upload/bookimg2.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="2"></div>
+          <label><em>¥</em>1200</label>
+        </div>
+        </a> </li>
+      <li> <a href=""> <img src="upload/bookimg3.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="3"></div>
+          <label><em>¥</em>800</label>
+        </div>
+        </a> </li>
+      <li> <a href=""> <img src="upload/bookimg4.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="5"></div>
+          <label><em>¥</em>800</label>
+        </div>
+        </a> </li>
+         <li> <a href=""> <img src="upload/bookimg5.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="1"></div>
+          <label><em>¥</em>800</label>
+        </div>
+        </a> </li>
+      <li> <a href=""> <img src="upload/bookimg1.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="4"></div>
+          <label><em>¥</em>800</label>
+        </div>
+        </a> </li>
+      <li> <a href=""> <img src="upload/bookimg2.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="4"></div>
+          <label><em>¥</em>800</label>
+        </div>
+        </a> </li>
+      <li> <a href=""> <img src="upload/bookimg3.jpg">
+        <div class="book-maintitle">
+          <h2>春城湖畔高尔夫球场</h2>
+          <div class="star-box" data-star="4"></div>
+          <label><em>¥</em>800</label>
+        </div>
+        </a> </li>
+    </ul>
+    <ul class="page book-page">
+      <li><a href="">上一页</a></li>
+      <li class="active"><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
+      <li><a href="">下一页</a></li>
+    </ul>
+</section>
+<footer class="w bc01 main-bot">
+  <div class="w1 relative">
+    <address class="copyright">
+    Copyright © 2016 山东黄金高尔夫俱乐部 All Rights Reserved
+    </address>
+    <ul class="absolute">
+      <li><a href="">关于我们</a></li>
+      <li><a href="">联系我们</a></li>
+      <li><a href="">用户协议</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="templets/tpl/js/main.js"></script>
+</body>
+</html>

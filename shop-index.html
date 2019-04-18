@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit|ie-stand">
+<meta charset="utf-8">
+<title>精选商城 - 黄金高尔夫</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/all_library.css">
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/main.css">
+<script src="templets/tpl/js/all_library.js"></script>
+<script src="templets/plus/My97DatePicker/WdatePicker.js"></script>
+<!--[if lt IE 9]>
+<script src="templets/tpl/js/css3-mediaqueries.js"></script>
+<script src="templets/tpl/js/html5.js"></script>
+<script src="templets/tpl/js/pie.js"></script>
+<script src="templets/tpl/js/ie.js"></script>
+<link rel="stylesheet" type="text/css" href="templets/tpl/css/ie.css">
+<![endif]-->
+</head>
+
+<body>
+<header class="w bc01 relative main-top">
+  <h1 class="w1">山东黄金高尔夫</h1>
+  <aside class="absolute w top-tools">
+    <div class="w1 relative">
+      <div class="login"><b class="welcome">欢迎来到山东黄金高尔夫！</b><a href="">[登录]</a> <a href="">[<b class="c02">免费注册</b>]</a></div>
+      <ul class="absolute">
+        <li><a href="">球场订单</a></li>
+        <li><a href="">教学订单</a></li>
+        <li><a href="">商品订单</a></li>
+        <li>|</li>
+        <li><a href="">购物车<b class="c02">0</b>件</a></li>
+        <li>|</li>
+        <li><a href=""><b class="c03">软件下载</b></a></li>
+      </ul>
+    </div>
+  </aside>
+  <address class="absolute w1 top-add">
+  <div class="relative city-box"> <b class="city-name">济南</b> <a class="city-switch" href="javascript:;">切换城市<i class="iconfont icon-jiantou-down"></i></a>
+    <div class="city-list hidden">
+      <div class="city-this">当前：<span id="city-this">济南</span><i class="iconfont icon-dingwei" onClick="getLocation();"></i></div>
+      <ul>
+        <li>济南</li>
+        <li>上海</li>
+        <li>北京</li>
+        <li>广州</li>
+        <li>深圳</li>
+        <li>成都</li>
+        <li>重庆</li>
+        <li>青岛</li>
+        <li>西安</li>
+        <li>三亚</li>
+      </ul>
+    </div>
+  </div>
+  <div class="absolute tel-no">全国统一服务热线：400-666-6666</div>
+  </address>
+</header>
+<nav class="w main-nav">
+  <ul class="w1 relative">
+    <li><a href="index.html">首页</a></li>
+    <li><a href="book-index.html">球场预定</a></li>
+    <li><a href="teaching-index.html">教学频道</a></li>
+    <li class="on"><a href="shop-index.html">精选商城</a></li>
+    <li><a href="match-index.html">赛事资讯</a></li>
+    
+    <li class="absolute bc02 download"><a href="javascript:;"><i class="iconfont icon-shouji"></i>手机端下载<i class="iconfont icon-jiantou-down"></i></a>
+      <aside class="absolute app-download hidden">
+        <dl class="tct">
+          <img src="upload/QRcode.png" width="120" height="120" alt=""/>
+          <p>手机扫一扫下载APP</p>
+        </dl>
+        <dl class="tct">
+          <a href="" class="btn btn-green"><i class="iconfont icon-pingguo"></i> APP Store</a> <a href="" class="btn btn-green"><i class="iconfont icon-anzhuo"></i> Android</a> 点击下载到电脑
+        </dl>
+      </aside>
+    </li>
+  </ul>
+</nav>
+<aside class="w1 main-location">
+<ul>
+	<li>当前位置：</li>
+	<li><a href="index.html">首页</a></li>
+	<li>精选商城</li>
+</ul>
+</aside>
+<section class="main-box w1">
+<div class="bc01 relative shop-search">
+<b class="tct">类别：</b>
+<ul>
+<li class="on">全部</li>
+<li>好球</li>
+<li>服饰</li>
+<li>球具</li>
+<li>附件</li>
+<li>套杆</li>
+<li>鞋袜</li>
+<li>学球</li>
+<li>球包</li>
+<li>团购</li>
+</ul>
+<div class="absolute input-box">
+<input type="text" class="input" placeholder="请输入商品关键字">
+<button type="submit" class="absolute gradient01 iconfont icon-sousuo"></button>
+</div>
+</div>
+<div class="bc01 shop-box">
+<div class="gradient01 shop-sort">
+<b class="tct">排序：</b>
+<ul>
+	<li class="on">推荐排序</li>
+	<li>销量最高</li>
+	<li>价格从低到高</li>
+    <li>价格从高到低</li>
+	<li>折扣最低</li>
+	<li>最新上架</li>
+</ul>
+</div>
+<ul class="shop-list">
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop01.jpg" alt=""/>
+    </figure>
+    <h3>英国DUNLOP官方正品高尔夫球杆全套杆男士左右手初中级DDH练习杆</h3>
+    <p>3960 <b>4600</b></p>
+    <span>套杆</span>
+    <aside>38人付款</aside>
+ </a>
+</li>
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop02.jpg" alt=""/>
+    </figure>
+    <h3>Callaway SOLAIRE 女士高尔夫套杆 高尔夫球杆女款 2016 </h3>
+    <p>6190 <b>7900</b></p>
+    <span>套杆</span>
+    <aside>25人付款</aside>
+ </a>
+</li>
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop03.jpg" alt=""/>
+    </figure>
+    <h3>正品PeterAllis PA-06男士高尔夫球杆全套杆初学套杆练习一号木</h3>
+    <p>2300 <b>3100</b></p>
+    <span>套杆</span>
+    <aside>58人付款</aside>
+ </a>
+</li>
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop04.jpg" alt=""/>
+    </figure>
+    <h3>FootJoy官方FJ高尔夫手套GTXtreme防滑透气手套男 左手</h3>
+    <p>85 <b>150</b></p>
+    <span>服饰</span>
+    <aside>178人付款</aside>
+ </a>
+</li>
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop05.jpg" alt=""/>
+    </figure>
+    <h3>两件包邮 PGM 高尔夫防晒袖套 男女款 户外运动套袖 防紫外线服装 </h3>
+    <p>9.9 <b>48</b></p>
+    <span>服饰</span>
+    <aside>536人付款</aside>
+ </a>
+</li>
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop06.jpg" alt=""/>
+    </figure>
+    <h3>Titleist高尔夫球 Pro v1三层球Pro v1x四层球golf球 包邮 </h3>
+    <p>360 <b>500</b></p>
+    <span>好球</span>
+    <aside>85人付款</aside>
+ </a>
+</li>
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop07.jpg" alt=""/>
+    </figure>
+    <h3>包邮！PGM 高尔夫裤子 男士夏款球裤 高弹性长裤 速干薄款男裤 </h3>
+    <p>135 <b>180</b></p>
+    <span>服饰</span>
+    <aside>131人付款</aside>
+ </a>
+</li>
+<li>
+<a href="shop-article.html">
+    <figure>
+    <img src="upload/shop08.jpg" alt=""/>
+    </figure>
+    <h3>英国DUNLOP官方正品高尔夫球鞋男款鞋子牛皮防水golf 运动板鞋 </h3>
+    <p>499<b>620</b></p>
+    <span>鞋袜</span>
+    <aside>91人付款</aside>
+ </a>
+</li>
+</ul>
+<ul class="page book-page">
+      <li><a href="">上一页</a></li>
+      <li class="active"><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
+      <li><a href="">下一页</a></li>
+    </ul>
+</div>
+</section>
+<footer class="w bc01 main-bot">
+  <div class="w1 relative">
+    <address class="copyright">
+    Copyright © 2016 山东黄金高尔夫俱乐部 All Rights Reserved
+    </address>
+    <ul class="absolute">
+      <li><a href="">关于我们</a></li>
+      <li><a href="">联系我们</a></li>
+      <li><a href="">用户协议</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="templets/tpl/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* 赛事资讯 */
+body{ background-color:#fff;}
+/*轮播banner*/
+.match-banner{
+	width:670px;
+	height:390px;
+	margin-top:10px;
+	overflow:hidden;
+	}
+.match-banner .pic-show{
+	height:390px}
+.match-banner .swiper-slide a{
+	display:block;
+	height:390px;
+	background-position:center center}
+.match-banner .swiper-slide a img{ width:100%; height:100%;}
+.match-xx-box{ width:670px; height:125px; background-color:rgba(0,0,0,.3); left:0px; bottom:0px; z-index:99; }
+.match-xx-box h3{ font-size:2rem; color:#fff; text-indent:25px; height:40px; line-height:40px; margin-top:13px;}
+.match-xx-box p{ font-size:1.6rem; color:#ffdac1; padding-left:25px;height:28px; line-height:28px;}
+.swiper-pagination{ color:#ff;}
+/*赛事预告*/
+.match-yugao{ width:510px; height:390px;margin-top:10px;}
+.match-yugao table{ border:#e5e5e5 1px solid;width:510px; height:390px; text-align:center;}
+.match-yugao table tr th{ height:44px; line-height:44px; font-size:1.8rem; color:#333; font-weight:bold; background-color:#f6f6f6;}
+.match-yugao table tr td{ height:45px;  line-height:45px; font-size:1.6rem; color:#666; border:#e5e5e5 1px solid;}
+.match-yugao table a:hover{ text-decoration:underline; color:#f60;}
+/*最新赛事资讯*/
+.match-news{ width:670px; margin-top:20px;}
+/*标题*/
+.match-title{ width:100%; height:62px; line-height:60px; border-bottom:#e5e5e5 2px solid;}
+.match-title h3{ width:140px;font-size:1.8rem; color:#333; padding-left:15px; border-bottom:#f60 2px solid; z-index:3;}
+/*标题end*/
+/*资讯内容*/
+.match-news-box{ margin-top:20px;}
+.match-news-box img{ margin-right:24px; width:200px; height:130px;}
+.match-news-box>li{ height:130px; margin-bottom:20px;}
+.match-news-content li{ font-size:1.6rem; color:#666; line-height:32px; height:32px;}
+.match-news-content li:before{content:"[";}
+.match-news-content li:after{content:"]";}
+.match-news-content .match-tuijian{ font-size:1.8rem ; color:#333; font-weight:bold; }
+.match-news-content .match-tuijian:before{content:"";}
+.match-news-content .match-tuijian:after{content:"";}
+.match-news-content li a:hover{ color:#f60; text-decoration:underline;}
+/*赛事视频*/
+.match-video{ width:510px; margin-top:25px;}
+.match-video-box{ width:510px; padding-top:20px;}
+.match-shipin{margin-bottom:20px; margin-left:6px; margin-right:4px;}
+.match-shipin img{ width:160px; height:114px;}
+.match-shipin p{ height:20px; width:160px;line-height:20px; font-size:1.3rem; color:#fff; padding:0 5px; background-color:rgba(0,0,0,.6); left:0px; bottom:0px;}
+.match-shipin i{top: 0;left: 0;font-size: 4rem;width: 160px;height: 114px;line-height: 114px;text-align: center;color: rgba(255,255,255,.6);}
+.match-shipin i:hover{	background:rgba(0,0,0,.3);color: rgba(255,255,255,.8)}
+/*其他资讯*/
+.match-other{ width:100%; margin-top:20px; margin-bottom:50px;}
+.match-xw{ margin-top:27px; margin-left:7px; margin-right:32px;}
+.match-xw li{ height:36px; line-height:36px; font-size:1.6rem; color:#666;}
+.match-xw li a:hover{ color:#f60; text-decoration:underline;}
+/*赛事首页end*/
+/*资讯详情*/
+.news-left,.news-right{ margin-top:20px;}
+/*咨询内容*/
+.news-left{ width:807px;  border:#e5e5e5 1px solid; margin-bottom:60px;}
+.news-head{ height:127px; text-align:center; border-bottom:#e5e5e5 1px solid; margin:0 10px}
+.news-head h1{ font-size:2rem; color:#333; height:60px; line-height:60px; margin-top:25px;}
+.news-head time,.news-head span{ font-size:1.3rem; color:#666;}
+.news-head time{ margin-right:40px;}
+.news-content{border-bottom:#e9ecf2 1px solid; margin:0 10px; padding:0px 20px;}
+.news-content img{ width:570px; height:380px; margin:40px auto; display:block;}
+.news-content p{ font-size:1.6rem; color:#666;line-height:32px; margin-bottom:32px;word-break: normal; }
+.news-footer{ padding:88px 40px 0px 40px;;}
+.news-footer h3{ font-size:2rem; color:#333;}
+.news-footer p{ font-size:1.6rem; color:#666;}
+.news-footer p span:before{ content:"(";}
+.news-footer p span:after{ content:")";}
+.news-footer p span{ color:#ff0000 !important;}
+.news-footer p b{ color:#0f77d7 !important;}
+.news-footer textarea{ width:100%; height:235px; border:#d5d5d5 1px solid; margin-top:22px; font-size:1.6rem; color:#999; padding-left:30px; padding-top:25px;}
+.news-footer .news-btn{ width:300px; height:40px; line-height:40px; text-align:center; color:#fff; margin:40px auto; border:none; display:block;}
+.news-footer .news-btn:hover{ background-color:#04b500;}
+
+/*咨询内容end*/
+/*资讯列表*/
+.news-right{ width:370px; height:810px;  border:#e5e5e5 1px solid;}
+.news-right h3{ height:44px; line-height:44px; background-color:#f6f6f6; border-bottom:#e5e5e5 1px solid; font-size:1.8rem; color:#333; padding-left:20px;}
+.news-list{ margin:40px 20px;}
+.news-list-content { margin-bottom:40px;}
+.news-list-content li a{ font-size:1.3rem; color:#666; line-height:30px; height:30px;}
+.news-list-content li a:before{content:"[";}
+.news-list-content li a:after{content:"]";}
+.news-list-content .match-tuijian a{color:#333 !important; font-weight:bold;}
+.news-list-content .match-tuijian a:before{content:"";}
+.news-list-content .match-tuijian a:after{content:"";}
+.news-list-content li a:hover{ color:#f60; text-decoration:underline;}
+
+/*资讯列表end*/

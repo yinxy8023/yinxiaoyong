@@ -1,0 +1,109 @@
+@charset "utf-8";
+body { background-color: #fff; }
+/* 教学首页 */
+/*教学导航*/
+.teaching-nav { margin-top: 10px; }
+.teaching-nav .teaching-nav-box { width: 1200px; height: 180px; border: #e5e5e5 1px solid; color: #999999; font-size: 1.4rem; }
+.teaching-nav .teaching-nav-box>li { height: 60px; line-height: 61px; padding-left: 21px; }
+.teaching-nav .teaching-nav-box>li>ul { display: inline-block; }
+.teaching-nav .teaching-nav-box>li>ul>li { display: inline-block; margin-left: 20px; }
+.teaching-nav .teaching-nav-box .teaching-nav-border { border-bottom: #e5e5e5 1px dashed; border-top: #e5e5e5 1px dashed; }
+.teaching-nav-box>li>ul>li>a { color: #999999; padding: 2px 5px; }
+.teaching-nav-box>li>ul>li>a:hover, .th-tag-active { color: #fff !important; background-color: #19c100; }
+/*教学导航end*/
+/*教练列表*/
+.coach-box { height: 210px; margin-top: 20px; border: #e5e5e5 1px solid; padding: 15px 40px 0px 12px; }
+.coach-box img { width: 280px; height: 180px; margin-right: 30px; }
+.coach-box .coach-xinxi { padding-top: 23px; }
+.coach-xinxi li { font-size: 1.6rem; color: #999999; }
+.coach-xinxi h3 { font-size: 2rem; color: #666666; margin-bottom: 25px; margin-right: 10px; }
+.coach-xinxi>span { color: #fff; font-size: 1.3rem; text-align: center; padding: 3px 5px; }
+.coach-xinxi .label-left { background-color: #19c100; border-radius: 3px 0px 0px 3px; }
+.coach-xinxi .label-right { background-color: #56d843; border-radius: 0px 3px 3px 0px; }
+.coach-xinxi p { margin-left: 10px; color: #666666; line-height: 20px; }
+.coach-xinxi li p { display: inline-block; margin-bottom: 10px; color: #666666; }
+.coach-xinxi li:last-child span { margin-right: 20px; }
+.coach-right { padding-top: 38px; }
+.coach-right p { font-size: 3.4rem; margin-bottom: 15px; margin-left: 80px; }
+.coach-right p:before { content: "￥"; font-size: 2rem; vertical-align: super; }
+.coach-right sub { font-size: 1.4rem; color: #666666; }
+.coach-right .coach-yuyue { width: 140px; height: 50px; border: none; color: #fff; font-size: 2rem; }
+.coach-right .coach-yuyue:hover { background-color: #19c100; }
+.coach-right .coach-zixun { font-size: 2rem; color: #333; margin-right: 4px; }
+.coach-right .coach-zixun:hover { text-decoration: underline; }
+/*教练列表end*/
+/*翻页*/
+.footer-pages { width: 400px; margin: 20px auto; }
+.footer-pages .page-btn { width: 40px; height: 30px; background-color: #f6f6f6; border: #dfdfdf 1px solid; margin-right: 10px; font-size: 1.6rem; color: #333; }
+.footer-pages .page-btn:first-child, .footer-pages .page-btn:last-child { width: 60px; }
+.footer-pages span { margin-right: 10px; }
+.page-active, .footer-pages .page-btn:hover { background-color: #f60 !important; color: #fff !important; }
+/*翻页end*/
+/*教学首页end*/
+/*教练详情*/
+/*教练详情-head*/
+.coach-head { width: 100%; margin-top: 10px; }
+.coach-head img { width: 50%; height: 338px; }
+.coach-class { width: 50%; padding: 20px 0px 0px 30px; }
+.coach-class h3 { color: #333; font-size: 2.2rem; font-weight: bold; margin-right: 20px; margin-bottom: 40px; }
+.coach-class>span { width: 30px; height: 25px; color: #fff; text-align: center; line-height: 25px; font-size: 1.6rem; }
+.coach-class .label-left { background-color: #19c100; border-radius: 3px 0px 0px 3px; }
+.coach-class .label-right { background-color: #56d843; border-radius: 0px 3px 3px 0px; }
+.coach-class li { font-size: 1.8rem; height: 32px; line-height: 32px; margin-bottom: 20px; }
+.coach-class li p { margin-right: 35px; color: #666; width: 160px; }
+.coach-class li span:before { content: "￥"; }
+.coach-class li span { margin-right: 35px; color: #999; width: 70px; }
+.coach-class li .old-price { text-decoration: line-through; }
+.coach-class li .new-price { color: #f60; margin-right: 70px; }
+.coach-class li .yuyue-btn { border: none; width: 62px; height: 32px; color: #fff; }
+.coach-class li .yuyue-btn:hover { background-color: #19c100; }
+.coach-class .teaching-adress { height: 50px; background-color: #f6f6f6; color: #666; font-size: 1.6rem; text-align: center; line-height: 50px; }
+/*教练详情head END*/
+/*教练简介*/
+/*title*/
+.coach-title { width: 100%; height: 50px; background-color: #f6f6f6; margin-top: 33px; border: #e5e5e5 1px solid; }
+.coach-title li { display: inline-block; width: 140px; height: 50px; line-height: 40px; font-size: 1.6rem; text-align: center; cursor: pointer; }
+.coach-title li:hover { }
+.coach-title li>span { margin-left: 15px; color: #f60; }
+.title-active { background-color: #fff !important; color: #f60 !important; border-top: #f60 6px solid; border-right: #e5e5e5 1px solid; border-left: #e5e5e5 1px solid; margin-left: -1px; }
+/*教学视频*/
+.coach-content1, .coach-content2 { padding-top: 38px; padding-left: 10px; border: #e5e5e5 1px solid; border-top: none; }
+.coach-content1 h2 { font-size: 2rem; color: #666; margin-bottom: 25px; }
+.coach-content1 .video-box { width: 280px; overflow: hidden; margin-right: 25px; }
+.coach-content1 .video-box img { width: 100%; height: 190px; }
+.coach-content1 .video-box time, .coach-content1 .video-box b { line-height: 24px; padding: 0 10px; background: rgba(0,0,0,.6); color: #FFF; position: absolute; bottom: 0; left: 1px; }
+.coach-content1 .video-box b { left: auto; right: 1px; }
+.coach-content1 .video-box i { position: absolute; top: 0; left: 0; font-size: 7rem; width: 280px; height: 190px; line-height: 190px; text-align: center; color: rgba(255,255,255,.5); }
+.coach-content1 .video-box h3 { font-size: 1.5rem; line-height: 24px; color: #333; margin: 8px 0 5px 0; margin-left: 50px; }
+.coach-content1 .video-box h3 .bc02 { padding: 0 5px; color: #FFF; font-size: 1.4rem; border-radius: 3px; margin-right: 4px; left: 0px; right: auto; bottom: 0px; bottom: 4px; background-color: #f60; }
+.coach-content1 .video-box:hover figure i { background: rgba(0,0,0,.2); color: rgba(255,255,255,.7) }
+.coach-content1 p, .coach-content2 p { font-size: 1.6rem; color: #666; font-weight: lighter; line-height: 36px; margin-bottom: 40px; }
+/*教练详情end*/
+/*教练预约*/
+/*头部*/
+.th-book-head { width: 100%; height: 50px; margin-top: 20px; background-color: #f6f6f6; border: #e5e5e5 1px solid; }
+.th-book-head h2 { line-height: 50px; font-size: 1.8rem; color: #333; margin-left: 20px; }
+.th-book-head ul { margin-right: 36px; line-height: 50px; }
+.th-book-head li { display: inline-block; font-size: 1.3rem; color: #999; height: 40px; border-bottom: 4px #999 solid; width: 70px; text-align: center; cursor: pointer; }
+.th-book-active { color: #333 !important; border-bottom: #f60 4px solid !important; }
+/*预约内容*/
+.th-book-content { border: #e5e5e5 1px solid; margin-top: 10px; padding: 20px; }
+.th-book-content .th-book-title { height: 40px; background-color: #ffefe5; border-left: 8px solid #f60; }
+.th-book-title h3 { line-height: 40px; font-size: 1.8rem; margin-left: 15px; }
+.th-book-box { padding: 20px; }
+.th-book-box img { width: 160px; height: 200px; margin-right: 30px; }
+.th-book-right { font-size: 1.6rem; color: #666; height: 36px; line-height: 36px; }
+.th-book-right h3 { font-weight: bold; }
+.th-book-right>p>span:before { content: "￥"; color: #f60; }
+.th-book-right>p>span { font-size: 2rem; color: #f60; }
+.th-book-address { width: 504px; height: 60px; background-color: #f6f6f6; margin-top: 43px; text-align: center; line-height: 60px; font-size: 1.8rem; color: #666; }
+.th-book-address>span { color: #f00 !important; margin-right: 33px; }
+.th-book-zffs { font-size: 1.5rem; color: #333; height: 35px; line-height: 35px; margin-top: 86px; }
+.th-book-zffs span { width: 180px; margin-left: 40px; font-size: 2.2rem; color: #636363; line-height: 35px; cursor: pointer; }
+.th-book-zffs span input { -webkit-appearance: radio }
+.th-book-zffs .zfb { background: url(../images/zhifubao.png) 20px center no-repeat; background-size: auto 35px; }
+.th-book-zffs .wx { background: url(../images/weixin.png) 20px center no-repeat; background-size: auto 35px; }
+.th-book-zffs .wx input { margin-right: 55px; }
+.th-book-zffs .xj input { margin-right: 5px; }
+.th-book-btn { margin-top: 50px; width: 260px; height: 50px; color: #fff; border: none; font-size: 2rem; }
+.th-book-btn:hover { background-color: #0ca60c; }

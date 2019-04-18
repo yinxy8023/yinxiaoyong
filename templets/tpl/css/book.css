@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+/*预定首页*/
+.book-choose {background: #f6f6f8; padding:10px 20px; border: 1px solid #e9ecf2; margin: 10px 7px}
+.book-choose>ul { min-height:62px}
+.book-choose>ul>li { display: inline-block; float: left; margin:10px 5px; font-size: 1.6rem; position:relative }
+.book-choose>ul>li .input,.book-informain>ul>li>.input { height: 38px; width: 165px; line-height: 37px; color: #666 }
+.book-choose>ul>li>.city-switch { display: block; width: 95px; position: relative }
+.book-choose>ul>li>.city-switch>i,.book-choose>ul>li>i { position: absolute; right: 5px; top: 0px; color: #cccccc;font-size: 2rem}
+.book-choose>ul>li>i{ line-height:39px}
+.book-choose>ul>li>.btn{ width:70px; height:38px; line-height:38px}
+.book-main{ overflow:hidden}
+.book-main>li{margin:0 7px 20px 7px; float:left; width:285px; border:1px solid #e9ecf2; background:#fff}
+.book-main>li:hover{border:1px solid #ff6600}
+.book-main>li>a{ display:block}
+.book-main>li>a>img{ width:100%; height:197px}
+.book-maintitle{ border-top:1px solid #e9ecf2; padding:10px; position: relative}
+.book-maintitle>h2{ line-height:35px; font-size:1.8rem}
+.book-maintitle>.star-box{ margin:5px 0 15px}
+.book-maintitle>.star-box>i{ margin-right:6px; margin-left:0}
+.book-maintitle>label{ position:absolute; top:22px; right:5px;color:#ff6600; font-size:3.4rem}
+.book-maintitle>label>em,.book-book em{ font-size:1.9rem; vertical-align:super}
+.book-page{ margin:40px 0}
+/*预定详情*/
+.book-infor{ margin:20px 0}
+.book-infor>img{ width:627px; margin-right:25px; display:inline-block;vertical-align: top}
+.book-informain{ padding:15px 0; line-height:35px;display:inline-block;width: 542px}
+.book-informain>h2{ font-size:2.2rem}
+.book-informain>h2>em{ color:#00c409; font-size:1.8rem; padding-left:20px}
+.book-informain>p{ color:#666; font-size:1.5rem}
+.book-informain>ul{ margin:20px 0}
+.book-informain>ul>li{ display:inline-block; margin:0 20px 15px 0; color:#666666; font-size:1.6rem}
+.book-informain>ul>li>.Wdate,.book-informain>ul>li.book-hole>.select_box{ width:225px !important}
+.book-informain>ul>li>.input,.book-informain>ul>li.book-person>.select_box{ width:185px}
+.book-informain>h3{ font-size:1.5rem; color:#666; margin-bottom:15px}
+.book-book>label,.book-book>span{padding-right:20px }
+.book-book>label{color:#ff6600;font-size:3.4rem }
+.book-book>span{ text-decoration:line-through; color:#999999; font-size:2.6rem}
+.book-book>span>em{ font-size:1.6rem}
+.book-book>.btn{ width:228px; height:50px; line-height:50px;vertical-align: top; font-size:2rem; color:#fff}
+.book-book>.btn:hover{ color:#fff}
+.book-tabcon{ border:1px solid #e5e5e5; margin:35px 0}
+.book-tab{ height:50px; background:#f6f6f6; border-bottom:1px solid #e5e5e5;}
+.book-tab>li{height:50px;float:left;}
+.book-tab>li>a{padding:15px 25px; background:#f6f6f6; display:block; border-top:7px solid #f6f6f6}
+.book-tab>li.on{ background:#fff; border-color:#e5e5e5; border-style:solid; border-width:0 1px 0 1px; margin:0 0 0 -1px}
+.book-tab>li.on>a{color:#ff6600; border-top:7px solid #ff6600}
+.book-tabmain{ padding:20px 10px}
+.book-tabmain>p{ line-height:35px; color:#666}
+/*订单详情*/
+.book-menu>form>h3{ height:40px; line-height:40px; background:#ffefe5; border-left:10px solid #ff6600; padding-left:20px; font-size:1.8rem}
+.book-menu .th-book-box>ul>li{ line-height:35px; font-size:1.6rem}
+.book-menu .th-book-box>ul>li>label{ color:#999}
+.book-inforlist>li{ line-height:50px !important}
+.book-inforlist>li>.input{ width:260px; height:38px; line-height:38px}
+.book-inforlist>li>label{ padding-left:15px}
+.book-menu .th-book-zffs{ margin-top:50px;font-size:1.6rem}
+.book-menu  em{ color:#ff0000}

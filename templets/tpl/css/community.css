@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{ background-color:#fff;}
+/* 社区首页 */
+.content-box{ margin-top:10px; margin-bottom:30px;}
+.content-left{ width:890px; margin-right:20px;border:#e5e5e5 1px solid;}
+.content-right{ width:290px; padding-top:25px;}
+/*左-头部*/
+.content-left .content-head{ padding:20px 0px 0px 20px; border-bottom:#e5e5e5 1px dashed;}
+.content-left .content-head h3{ font-size:1.8rem; color:#666; height:20px; line-height:20px; margin-bottom:25px;}
+.content-left .content-head h3 span{ height:20px; line-height:20px; font-size:1.2rem; color:#fff; background-color:#19c100; text-align:center;padding: 0px 11px; margin-left:10px;}
+.content-left .content-head p{ font-size:1.3rem; color:#999; margin-bottom:15px;}
+.content-left .content-head p span{ margin-right:13px;}
+/*左-内容*/
+.content-body{ padding:10px;}
+/*内容头部*/
+.content-body .content-nav{ width:100%; height:44px; line-height:44px; background-color:#f6f5f5; border:#ececec 1px solid; margin-bottom:10px;}
+.content-body .content-nav li{ display:inline-block; line-height:26px; font-size:1.4rem; color:#666; text-align:center; margin-left:15px; margin-right:20px; width:76px; height:26px; border-radius:13px;}
+.content-body .content-nav li:hover,.nav-active{ background-color:#e3e3e3;}
+.content-body .content-nav .hot{ color:#f60;}
+.content-body .content-nav .hot span{ width:26px; height:26px;margin-bottom: -8px;margin-left:3px;  background:url(../../../upload/hot.png) center no-repeat;}
+.content-body .content-nav .better{ color:#19c100;}
+.content-body .content-nav .better span{width:26px; height:26px;margin-bottom: -8px; background:url(../../../upload/better.png) center no-repeat; margin-left:2px;}
+/*内容列表*/
+.content-body .content-list li{ height:95px; border-bottom:#e5e5e5 1px dashed; padding:23px 30px 23px 18px;}
+.content-body .content-list li img{ width:50px; height:50px; margin-right:14px;}
+.content-body .content-list li h4{ font-size:1.6rem; color:#333333; margin-bottom:19px;}
+.content-body .content-list li p{ font-size:1.3rem; color:#999999;}
+.content-list li h4 a span:before{ content:"【";}
+.content-list li h4 a span:after{ content:"】";}
+.content-list li p>span:before{ content:"【";}
+.content-list li p>span:after{ content:"】";}
+.content-list li p{cursor:pointer;}
+.content-list li p span{ margin-right:5px;}
+.content-list li p b{ margin-right:10px;}
+.content-list li p b:hover{ color:#f60; cursor:pointer;}
+.content-list li p time{ margin-right:36px;}
+.content-list li .text-box{ width:755px;}
+.comment b{width:17px; height:15px; }
+.comment b:hover{ color:#f60;}
+.comment b:first-child{ background:url(../../../upload/shequ-img1.png) left center no-repeat;margin-right:30px !important; }
+.comment b:last-child{ background:url(../../../upload/shequ-img2.png) left center no-repeat; }
+.comment span{ padding-left:25px; margin-right:0px !important;}
+/*内容翻页*/
+.content-footer li{}
+/*右*/
+.content-right .shequ-btn{ width:260px; height:45px; margin-bottom:20px; border-radius:6px; -webkit-border-radius:6px; line-height:45px; font-size:1.8rem;text-align:center; padding-left:20px; margin-left:15px;}
+.content-right .shequ-btn a{ color:#fff;}
+.content-right .fabu{ background:url(../../../upload/fatie.png) 77px center no-repeat; background-color:#f60;}
+.content-right .qiandao{ background:url(../../../upload/qiandao.png) 77px center no-repeat; background-color:#19c100;}
+.content-right .fabu:hover{  background-color:#666;}
+.content-right .qiandao:hover{  background-color:#666;}
+.content-right table{ width:290px; text-align:center; border:#e5e5e5 1px solid;}
+.content-right table th{ height:60px; line-height:60px; font-size:2rem; color:#666;border:#e5e5e5 1px solid;}
+.content-right table td{ height:50px; line-height:50px; font-size:1.6rem; border:#e5e5e5 1px solid;}
+.content-right table td a{color:#999;}
+.content-right table td a:hover{ text-decoration:underline; color:#06C;}
+/*筛选*/
+.content-list li h4 .hot-icon{ width:26px; height:26px;margin-bottom: -8px;background:url(../../../upload/hot.png) center no-repeat;}
+.content-list li h4 .better-icon{ width:26px; height:26px;margin-bottom: -8px;background:url(../../../upload/better.png) center no-repeat;}
